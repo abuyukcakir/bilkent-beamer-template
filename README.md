@@ -21,6 +21,6 @@ University of Vienna's template <sup>2</sup>. is the starting point.
 ![List, Verbatim](/beamer-template-2-pics/list.PNG)
 
 
-<sup>1</sup>. For more information, see: \url{https://w3.bilkent.edu.tr/www/bilkent-logo/}
+<sup>1</sup>. For more information, see: https://w3.bilkent.edu.tr/www/bilkent-logo/
 
-<sup>2</sup>. See: https://www.overleaf.com/latex/templates/beamer-university-of-vienna/mdpvdgyywjcw. (Under CC BY 4.0)
+<sup>2</sup>. Univ. of Vienna template available at: https://www.overleaf.com/latex/templates/beamer-university-of-vienna/mdpvdgyywjcw. (Licensed under CC BY 4.0)
