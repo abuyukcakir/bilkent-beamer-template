@@ -1,0 +1,130 @@
+\documentclass{beamer}
+\usepackage[british]{babel}
+\usepackage[utf8]{inputenc} % This package will support Turkish chars
+
+% Some useful packages I use frequently
+\usepackage{hyperref}
+\usepackage{stmaryrd}
+\usepackage{color}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+
+% vertical separator macro
+\newcommand{\vsep}{
+  \column{0.0\textwidth}
+    \begin{tikzpicture}
+      \draw[very thick,black!10] (0,0) -- (0,7.3);
+    \end{tikzpicture}
+}
+
+% Beamer theme
+\usetheme{Bilkent}
+\usefonttheme[onlysmall]{structurebold}
+\mode<presentation>
+\setbeamercovered{transparent=10}
+
+% align spacing
+\setlength{\jot}{0pt}
+
+%\setbeamertemplate{navigation symbols}{}%remove navigation symbols
+
+\title{Bilkent Beamer Template 2}
+\author{Alican Büyükçakır}
+\institute{Computer Engineering Department, Bilkent University}
+\date{\today}
+
+\begin{document}
+
+% Insert Titlepage before starting content.
+\begin{frame}
+  \titlepage
+\end{frame}
+
+% Insert table of contents if necessary
+\begin{frame}
+  \frametitle{Outline}
+
+  \tableofcontents
+\end{frame}
+
+
+% Insert slides below.
+\section{Introduction to Beamer}
+
+\subsection{What is Beamer}
+
+\begin{frame}{Beamer for Presentations!}
+
+  Beamer is a package that allows you to generate \LaTeX-based presentations. There are many reasons to prefer Beamer over MS PPT. For instance:
+  
+  \begin{itemize}
+      \item Using math equations
+      \item Referencing Tables and Figures, as well as citations \cite{buyukccakir2018novel}
+  \end{itemize}
+  
+\end{frame}
+
+\subsection{Useful Stuff to do with Beamer}
+
+\begin{frame}
+\frametitle{Paused Slide Flows}
+    
+    Here is an example of a paused-slide flow. (Notice the transparent text below)
+    
+    \pause
+    \begin{equation}
+    \label{eq1}
+    f(x) = \sum_{i=1}^N (-1)^{2n+1} a_i x^i
+    \end{equation}
+
+    \pause 
+    
+    Can refer to the above equation as if you are in any other \LaTeX doc. e.g. blabla see Equation \ref{eq1}
+\end{frame}
+
+\begin{frame}{Block, Alert, Example Boxes}
+
+    Define Theorems, draw attention etc. by using boxes.
+        
+    \begin{block}{Block Title}
+        Blocks are colored from Bilkent's color pallette.
+    \end{block}
+    
+    \begin{alertblock}{Alert Block Title}
+        Alert block is red.
+    \end{alertblock}
+    
+    \begin{examples}
+        This is an example box.. Example boxes are conventionally green.
+    \end{examples}
+\end{frame}
+
+\subsection{Color Choices of this template}
+
+\begin{frame}{Bilkent Theme}
+    Bilkent University's logo have two distinct colors. For more information, see: \url{https://w3.bilkent.edu.tr/www/bilkent-logo/}
+    
+    \begin{itemize}
+        \item Pantone Reflex Blue: \texttt{RGB(0,83,160)}
+        \item Flag Red (Alizarin): \texttt{RGB(237,29,36)}
+    \end{itemize}
+    
+    I used darker versions of Flag Red for the structure items such as top and bottom bars.
+\end{frame}
+
+
+\begin{frame}{}
+
+\end{frame}
+
+\section{References}
+\begingroup
+\Tiny
+\begin{frame}[allowframebreaks]
+    \frametitle{References}
+    \bibliographystyle{apalike}
+    \bibliography{bibliography} 
+\end{frame}
+\endgroup
+
+\end{document}

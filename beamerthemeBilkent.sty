@@ -1,0 +1,86 @@
+\ProvidesPackage{beamerthemeBilkent}[2019/07/14 beamerthemeBilkent]
+
+% Bilkent University Beamer Template --- by Alican Büyükçakır
+%
+% Copyright 2003 by Till Tantau <tantau@users.sourceforge.net>
+%
+% This program can be redistributed and/or modified under the terms
+% of the GNU Public License, version 2.
+
+%\usepackage[latin1]{inputenc}
+\setlength{\unitlength}{1cm}
+\DeclareOptionBeamer{compress}{\beamer@compresstrue}
+\ProcessOptionsBeamer
+
+\mode<presentation>
+
+\usetheme{Boadilla}
+\useoutertheme[footline=authorinstitutetitle]{miniframes}
+\useinnertheme{rectangles}
+% \usecolortheme{seagull}
+\usecolortheme{Bilkent}
+
+\let\Tiny=\tiny
+
+\setbeamertemplate{blocks}[rounded]
+
+\setbeamertemplate{frametitle}
+ 	{ 
+  \begin{minipage}[c]{\columnwidth}
+    \begin{picture}(12.8,0.7651)(0,0)
+      \put(-0.2,1.4){           \begin{beamercolorbox}[wd=\textwidth,left
+ ]{frametitle}
+             \usebeamerfont{frametitle}
+             \usebeamercolor[fg]{frametitle} {\bf \insertframetitle}
+           \end{beamercolorbox}}
+    \end{picture}
+  \end{minipage}
+  \vspace{-1cm}
+ 	}
+
+% Definition Kopfleiste
+
+\setbeamertemplate{headline}
+{
+  \vspace{0.1cm}
+  \begin{minipage}[c]{\columnwidth}
+    \begin{picture}(12.8,0.7651)(0,0)
+      \put(11.6,-0.02){\includegraphics[width=0.87cm]{logo-uni.png}}
+      %\put(11.3,0){\includegraphics[width=1.4cm]{logo-cd.pdf}}
+      \put(5.761,0.02){ %9.5
+        \begin{minipage}[t]{6cm}
+          \begin{flushright}
+          \end{flushright}
+        \end{minipage}}%
+    \end{picture}    
+  \end{minipage}%
+  \vspace{0.1cm}
+
+  \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex,%
+    leftskip=.3cm,rightskip=.3cm plus1fil]{author in head/foot}
+    \leavevmode{\usebeamerfont{author in head/foot}%
+    \insertsection $\;\bullet \;$\insertsubsection}
+    \hfill%
+%    {\insertshortinstitute}%
+  \end{beamercolorbox}%
+}
+
+% Definition Fu�eiste
+
+\setbeamertemplate{footline}
+{%
+  \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex,%
+    leftskip=.3cm,rightskip=.3cm plus1fil]{author in head/foot}
+    \leavevmode{\usebeamerfont{author in head/foot}%
+      \insertshortauthor}
+    \hfill
+    \insertshorttitle
+    \hfill%
+    {\insertframenumber / \inserttotalframenumber}%
+\end{beamercolorbox}%
+}
+
+
+
+\mode
+<all>
