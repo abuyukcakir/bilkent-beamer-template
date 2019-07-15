@@ -15,10 +15,10 @@ University of Vienna's template <sup>2</sup>. is the starting point.
 
 ### Example Slides
 
-![Title Page](/beamer-template-2-pics/titlepage.PNG)
-![Outline](/beamer-template-2-pics/outline.PNG)
-![Boxes, Alert Boxes, Examples](/beamer-template-2-pics/boxes.PNG)
-![List, Verbatim](/beamer-template-2-pics/list.PNG)
+![Title Page](/bilkent-beamer-pics/titlepage.PNG)
+![Outline](/bilkent-beamer-pics/outline.PNG)
+![Boxes, Alert Boxes, Examples](/bilkent-beamer-pics/boxes.PNG)
+![List, Verbatim](/bilkent-beamer-pics-pics/list.PNG)
 
 
 <sup>1</sup>. For more information, see: https://w3.bilkent.edu.tr/www/bilkent-logo/
