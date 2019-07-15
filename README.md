@@ -18,7 +18,7 @@ University of Vienna's template <sup>2</sup>. is the starting point.
 ![Title Page](/bilkent-beamer-pics/titlepage.PNG)
 ![Outline](/bilkent-beamer-pics/outline.PNG)
 ![Boxes, Alert Boxes, Examples](/bilkent-beamer-pics/boxes.PNG)
-![List, Verbatim](/bilkent-beamer-pics-pics/list.PNG)
+![List, Verbatim](/bilkent-beamer-pics/list.PNG)
 
 
 <sup>1</sup>. For more information, see: https://w3.bilkent.edu.tr/www/bilkent-logo/
