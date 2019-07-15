@@ -1,6 +1,6 @@
-# bilkent-beamer-template-2
+# bilkent-beamer-template
 
-Another LaTeX Beamer Template for Bilkent University students. Now, the theme uses exact color scheme of Bilkent University's officially announced colors.
+LaTeX Beamer Template for Bilkent University students. This theme uses exact color scheme of Bilkent University's officially announced colors.
 
 ### Info about color pallette:
 
